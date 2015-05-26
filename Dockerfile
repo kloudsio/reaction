@@ -77,7 +77,7 @@ ENV MAIL_URL smtp://localhost:25
 EXPOSE 3000
 
 # Install forever & phantomjs
-RUN npm install --silent -g forever phantomjs
+RUN npm install --silent -g forever phantomjs node-mailchimp
 
 # Install Meteor
 RUN curl https://install.meteor.com | /bin/sh
