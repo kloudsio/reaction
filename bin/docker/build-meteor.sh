@@ -15,6 +15,6 @@ set -e
 # build the source
 #
 meteor build --directory /var/www
-meteor add gouthamve:reaction-mailchimp --directory /var/www
+meteor add gouthamve:reaction-mailchimp
 cd /var/www/bundle/programs/server/ && npm install
 
